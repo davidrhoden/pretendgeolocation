@@ -29,16 +29,19 @@ We're going to override our real geolocation with a fake one. First click the se
 ![Geolocation default overrides](images/geocustomlocations.png) 
 
 
-To add a custom geolocation, click the blue "Manage" button. That'll open a window where you can enter the latitude and longitude of your chosen location and give it a name. Once you have added this location, return to the previous screen (click the 'x' in the upper right corner to close this dialog).
+To add a custom geolocation, click the blue "Manage" button. That'll open a window where you can enter the latitude and longitude of your chosen location and give it a name. 
 
 ![Add a custom geolocation](images/geoabouttoeditlocation.png) 
 
 Now where it says "No override", select your new location. I'm using New York City.
 
-
 ![paste in your latitude and longitude, and give it a name](images/geoeditlocation.png) 
+
+Once you have added this location, return to the previous screen (click the 'x' in the upper right corner to close this dialog).
 
 Go back to your Chrome window and do an "Empty Cache and Hard Reload" (click and hold the Refresh icon). Now search for something like "fish and chips near me". And how about that? You get fish and chip shops in New York City. You can't go to them, but you can think about them. It's almost like being there, thanks to the Geolocation sensor override in Google Inspector.
 
 ![faraway fish n chips](geofishnchipsmapbox.png) 
+
+To summarize: if you need to test location-based searches, or help a friend in another town find fish and chips, the Chrome Inspector gives you a fairly easy way to pretend to be in many places at once. 
 
