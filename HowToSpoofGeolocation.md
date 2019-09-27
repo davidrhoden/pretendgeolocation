@@ -2,7 +2,7 @@ We recently had a couple of issues where we needed to know what our websites loo
 
 So how did we do it?
 
-First, fire up your Chrome browser. (Other browsers may have similar capabilities, but these instructions are for Chrome.) Then open **Chrome Inspector**. I typically do this by simply right clicking on a web page, anywhere, and selecting `Inspect`. The inspector will open up on the page. (Lagniappe hint: if the Inspector is stuck in your window taking up most of the room, you can go into the Inspector Settings and change "Dock Side" to pop the Inspector out into its own window. I recommend you do this.)
+First, fire up your Chrome browser. (Other browsers may have similar capabilities, but these instructions are for Chrome.) Then open **Chrome Inspector**. I typically do this by simply right- clicking on a web page, anywhere, and selecting `Inspect`. The inspector will open up on the page. (Lagniappe hint: if the Inspector is stuck in your window taking up most of the room, you can go into the Inspector Settings and change "Dock Side" to pop the Inspector out into its own window. I recommend you do this.)
 
 I hope many of you are already familiar with Chrome Inspector, but I'll try not to skip any steps in case this is all new. (And if you find it confusing, please [email me](mailto:david@onlineoptimism.com) email me and I'll try to explain and improve these instructions.)
 
@@ -12,4 +12,11 @@ Now for the fun part!
 
 In the Sensors tab, the first thing you'll see is the Sensor for **Geolocation**. That sensor is how Google Chrome knows your location, so you can see the local restaurants and bars and such when you allow Google to know your location. This sensor strongly affects the search results you see in Google searches. So, if your remember the beginning of this blog post, what we wanted to see is how our New York City client came up in searches that originate in New York City. Since we aren't there, here's how we pretend to be.
 
+We're going to override our real geolocation with a fake one. First click the select box that says "No override". What we'd like to do is add one of the existing overrides, as seen in the select box. But wait: The Big Apple's not in there. It's OK, though, we can add it.
+
+To add a custom geolocation, click the blue "Manage" button. That'll open a window where you can enter the latitude and longitude of your chosen location and give it a name. Once you have added this location, return to the previous screen (click the 'x' in the upper right corner to close this dialog).
+
+Now where it says "No override", select your new location. I'm using New York City.
+
+Go back to your Chrome window and do an "Empty Cache and Hard Reload" (click and hold the Refresh icon). Now search for something like "fish and chips near me". And how about that? You get fish and chip shops in New York City.
 
