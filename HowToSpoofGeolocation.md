@@ -1,8 +1,8 @@
-We recently had a couple of issues where we needed to know what our websites look like in different locations. We wanted to know how one of our sites ranked locally in New York City, and we needed to make sure another site was working in India. We're a growing business, but we don't yet have satellite offices in those locations. But with the help of Google Chrome Inspector, we were able to make it appear that we were browsing from Mumbai and New York City.
+We recently had an issue where we needed to know what our websites look like in a different location. We wanted to know how one of our sites ranked locally in New York City. We're a growing business, but we don't yet have satellite offices in that location. But with the help of Google Chrome Inspector, we were able to make it appear that we were browsing from New York City.
 
 So how did we do it?
 
-First, fire up your Chrome browser. (Other browsers may have similar capabilities, but these instructions are for Chrome.) Then open **Chrome Inspector**. I typically do this by simply right- clicking on a web page, anywhere, and selecting `Inspect`. The inspector will open up on the page. (Lagniappe hint: if the Inspector is stuck in your window taking up most of the room, you can go into the Inspector Settings and change "Dock Side" to pop the Inspector out into its own window. I recommend you do this.)
+First, fire up your Chrome browser. (Other browsers may have similar capabilities, but these instructions are for Chrome.) Then open **Chrome Inspector**. I typically do this by simply right- clicking on a web page, anywhere, and selecting `Inspect`. The inspector will open up on the page. (*Lagniappe hint:* if the Inspector is stuck in your window taking up most of the room, you can go into the Inspector Settings -- click the three vertical  and change "Dock Side" to pop the Inspector out into its own window. I recommend you do this.)
 
 I hope many of you are already familiar with Chrome Inspector, but I'll try not to skip any steps in case this is all new. (And if you find it confusing, please [email me](mailto:david@onlineoptimism.com) email me and I'll try to explain and improve these instructions.)
 
@@ -18,5 +18,5 @@ To add a custom geolocation, click the blue "Manage" button. That'll open a wind
 
 Now where it says "No override", select your new location. I'm using New York City.
 
-Go back to your Chrome window and do an "Empty Cache and Hard Reload" (click and hold the Refresh icon). Now search for something like "fish and chips near me". And how about that? You get fish and chip shops in New York City.
+Go back to your Chrome window and do an "Empty Cache and Hard Reload" (click and hold the Refresh icon). Now search for something like "fish and chips near me". And how about that? You get fish and chip shops in New York City. You can't go to them, but you can think about them. It's almost like being there, thanks to the Geolocaytion sensor override in Google Inspector.
 
