@@ -41,7 +41,7 @@ Once you have added this location, return to the previous screen (click the 'x' 
 
 Go back to your Chrome window and do an "Empty Cache and Hard Reload" (click and hold the Refresh icon). Now search for something like "fish and chips near me". And how about that? You get fish and chip shops in New York City. You can't go to them, but you can think about them. It's almost like being there, thanks to the Geolocation sensor override in Google Inspector.
 
-![faraway fish n chips](geofishnchipsmapbox.png) 
+![faraway fish n chips](images/geofishnchipsmapbox.png) 
 
 To summarize: if you need to test location-based searches, or help a friend in another town find fish and chips, the Chrome Inspector gives you a fairly easy way to pretend to be in many places at once. 
 
