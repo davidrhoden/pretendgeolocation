@@ -2,11 +2,23 @@ We recently had an issue where we needed to know what our websites look like in 
 
 So how did we do it?
 
-First, fire up your Chrome browser. (Other browsers may have similar capabilities, but these instructions are for Chrome.) Then open **Chrome Inspector**. I typically do this by simply right- clicking on a web page, anywhere, and selecting `Inspect`. The inspector will open up on the page. (*Lagniappe hint:* if the Inspector is stuck in your window taking up most of the room, you can go into the Inspector Settings -- click the three vertical  and change "Dock Side" to pop the Inspector out into its own window. I recommend you do this.)
+First, fire up your Chrome browser. (Other browsers may have similar capabilities, but these instructions are for Chrome.) Then open **Chrome Inspector**. I typically do this by simply right- clicking on a web page, anywhere, and selecting `Inspect`. The inspector will open up on the page.
+
+![Chrome Inspector, docked in the window](images/geodockinwindow.png) 
+
+(*Lagniappe hint:* if the Inspector is stuck in your window taking up most of the room, you can go into the Inspector Settings -- click the three vertical  and change "Dock Side" to pop the Inspector out into its own window. I recommend you do this.)
+
+![Chrome Insector Settings](images/geodockinwindoweditboxopen.png) 
 
 I hope many of you are already familiar with Chrome Inspector, but I'll try not to skip any steps in case this is all new. (And if you find it confusing, please [email me](mailto:david@onlineoptimism.com) email me and I'll try to explain and improve these instructions.)
 
-Now that you have Chrome Inspector open, press `Control+Shift+P`, `Command+Shift+P` if you're on a mac. This Opens the **Command Menu**. The Command Menu, not surprisingly, contains a lot of commands you can give the Inspector, so it'll do things. In the space at the top of the Command menu, type "Sensors." That filters down to the command you want: Show Sensors. Click that and the Sensors tab will appear in the drawer (i.e., the space at the bottom of your Inspector window).
+Now that you have Chrome Inspector open, press `Control+Shift+P`, `Command+Shift+P` if you're on a mac. This Opens the **Command Menu**. 
+
+![Chrome Inspector Command Menu](images/geocommandmenuopened.png) 
+
+The Command Menu, not surprisingly, contains a lot of commands you can give the Inspector, so it'll do things. In the space at the top of the Command menu, type "Sensors." That filters down to the command you want: Show Sensors. Click that and the Sensors tab will appear in the drawer (i.e., the space at the bottom of your Inspector window).
+
+![Type Sensors to filter to the command you need...](images/geofilteredtosensors.png) 
 
 Now for the fun part!
 
@@ -14,9 +26,17 @@ In the Sensors tab, the first thing you'll see is the Sensor for **Geolocation**
 
 We're going to override our real geolocation with a fake one. First click the select box that says "No override". What we'd like to do is add one of the existing overrides, as seen in the select box. But wait: The Big Apple's not in there. It's OK, though, we can add it.
 
+![Geolocation default overrides](images/geoeditlocation.png) 
+
 To add a custom geolocation, click the blue "Manage" button. That'll open a window where you can enter the latitude and longitude of your chosen location and give it a name. Once you have added this location, return to the previous screen (click the 'x' in the upper right corner to close this dialog).
+
+![Add a custom geolocation](geoabouttoeditlocation.png) 
 
 Now where it says "No override", select your new location. I'm using New York City.
 
-Go back to your Chrome window and do an "Empty Cache and Hard Reload" (click and hold the Refresh icon). Now search for something like "fish and chips near me". And how about that? You get fish and chip shops in New York City. You can't go to them, but you can think about them. It's almost like being there, thanks to the Geolocaytion sensor override in Google Inspector.
+![paste in your latitude and longitude, and give it a name](geocustomlocations.png) 
+
+Go back to your Chrome window and do an "Empty Cache and Hard Reload" (click and hold the Refresh icon). Now search for something like "fish and chips near me". And how about that? You get fish and chip shops in New York City. You can't go to them, but you can think about them. It's almost like being there, thanks to the Geolocation sensor override in Google Inspector.
+
+![faraway fish n chips](geofishnchipsmapbox.png) 
 
