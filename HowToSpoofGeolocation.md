@@ -26,15 +26,16 @@ In the Sensors tab, the first thing you'll see is the Sensor for **Geolocation**
 
 We're going to override our real geolocation with a fake one. First click the select box that says "No override". What we'd like to do is add one of the existing overrides, as seen in the select box. But wait: The Big Apple's not in there. It's OK, though, we can add it.
 
-![Geolocation default overrides](images/geoeditlocation.png) 
+
 
 To add a custom geolocation, click the blue "Manage" button. That'll open a window where you can enter the latitude and longitude of your chosen location and give it a name. Once you have added this location, return to the previous screen (click the 'x' in the upper right corner to close this dialog).
 
-![Add a custom geolocation](geoabouttoeditlocation.png) 
+![Add a custom geolocation](images/geoabouttoeditlocation.png) 
 
 Now where it says "No override", select your new location. I'm using New York City.
 
-![paste in your latitude and longitude, and give it a name](geocustomlocations.png) 
+![paste in your latitude and longitude, and give it a name](images/geocustomlocations.png) 
+![Geolocation default overrides](images/geoeditlocation.png) 
 
 Go back to your Chrome window and do an "Empty Cache and Hard Reload" (click and hold the Refresh icon). Now search for something like "fish and chips near me". And how about that? You get fish and chip shops in New York City. You can't go to them, but you can think about them. It's almost like being there, thanks to the Geolocation sensor override in Google Inspector.
 
