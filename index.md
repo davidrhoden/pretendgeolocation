@@ -1,4 +1,4 @@
-## How To Spoof Geolocation
+## How To Spoof Geolocation (And See What Your SIte Looks Like On The Other Side Of The World)
 
 We recently had an issue where we needed to know what our websites look like in a different location. We wanted to know how one of our sites ranked locally in New York City. We're a growing business, but we don't yet have satellite offices in that location. But with the help of Google Chrome Inspector, we were able to make it appear that we were browsing from New York City.
 
